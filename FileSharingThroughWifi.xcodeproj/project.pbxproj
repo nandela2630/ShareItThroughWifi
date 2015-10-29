@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A446BE61BE249AE00057E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BE51BE249AE00057E98 /* main.m */; };
+		9A446BE91BE249AE00057E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BE81BE249AE00057E98 /* AppDelegate.m */; };
+		9A446BEC1BE249AE00057E98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BEB1BE249AE00057E98 /* ViewController.m */; };
+		9A446BEF1BE249AE00057E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A446BED1BE249AE00057E98 /* Main.storyboard */; };
+		9A446BF21BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BF01BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld */; };
+		9A446BF41BE249AE00057E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A446BF31BE249AE00057E98 /* Assets.xcassets */; };
+		9A446BF71BE249AE00057E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A446BF51BE249AE00057E98 /* LaunchScreen.storyboard */; };
+		9A446C021BE249AF00057E98 /* FileSharingThroughWifiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */; };
+		9A446C0D1BE249AF00057E98 /* FileSharingThroughWifiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A446BFE1BE249AF00057E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A446BD91BE249AE00057E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A446BE01BE249AE00057E98;
+			remoteInfo = FileSharingThroughWifi;
+		};
+		9A446C091BE249AF00057E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A446BD91BE249AE00057E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A446BE01BE249AE00057E98;
+			remoteInfo = FileSharingThroughWifi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileSharingThroughWifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A446BE51BE249AE00057E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A446BE71BE249AE00057E98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A446BE81BE249AE00057E98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A446BEA1BE249AE00057E98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A446BEB1BE249AE00057E98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A446BEE1BE249AE00057E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A446BF11BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FileSharingThroughWifi.xcdatamodel; sourceTree = "<group>"; };
+		9A446BF31BE249AE00057E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A446BF61BE249AE00057E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A446BF81BE249AE00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSharingThroughWifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharingThroughWifiTests.m; sourceTree = "<group>"; };
+		9A446C031BE249AF00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSharingThroughWifiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharingThroughWifiUITests.m; sourceTree = "<group>"; };
+		9A446C0E1BE249AF00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A446BDE1BE249AE00057E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446BFA1BE249AF00057E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446C051BE249AF00057E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A446BD81BE249AE00057E98 = {
+			isa = PBXGroup;
+			children = (
+				9A446BE31BE249AE00057E98 /* FileSharingThroughWifi */,
+				9A446C001BE249AF00057E98 /* FileSharingThroughWifiTests */,
+				9A446C0B1BE249AF00057E98 /* FileSharingThroughWifiUITests */,
+				9A446BE21BE249AE00057E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A446BE21BE249AE00057E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */,
+				9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */,
+				9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A446BE31BE249AE00057E98 /* FileSharingThroughWifi */ = {
+			isa = PBXGroup;
+			children = (
+				9A446BE71BE249AE00057E98 /* AppDelegate.h */,
+				9A446BE81BE249AE00057E98 /* AppDelegate.m */,
+				9A446BEA1BE249AE00057E98 /* ViewController.h */,
+				9A446BEB1BE249AE00057E98 /* ViewController.m */,
+				9A446BED1BE249AE00057E98 /* Main.storyboard */,
+				9A446BF31BE249AE00057E98 /* Assets.xcassets */,
+				9A446BF51BE249AE00057E98 /* LaunchScreen.storyboard */,
+				9A446BF81BE249AE00057E98 /* Info.plist */,
+				9A446BF01BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld */,
+				9A446BE41BE249AE00057E98 /* Supporting Files */,
+			);
+			path = FileSharingThroughWifi;
+			sourceTree = "<group>";
+		};
+		9A446BE41BE249AE00057E98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A446BE51BE249AE00057E98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A446C001BE249AF00057E98 /* FileSharingThroughWifiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */,
+				9A446C031BE249AF00057E98 /* Info.plist */,
+			);
+			path = FileSharingThroughWifiTests;
+			sourceTree = "<group>";
+		};
+		9A446C0B1BE249AF00057E98 /* FileSharingThroughWifiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */,
+				9A446C0E1BE249AF00057E98 /* Info.plist */,
+			);
+			path = FileSharingThroughWifiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifi" */;
+			buildPhases = (
+				9A446BDD1BE249AE00057E98 /* Sources */,
+				9A446BDE1BE249AE00057E98 /* Frameworks */,
+				9A446BDF1BE249AE00057E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileSharingThroughWifi;
+			productName = FileSharingThroughWifi;
+			productReference = 9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A446BFC1BE249AF00057E98 /* FileSharingThroughWifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiTests" */;
+			buildPhases = (
+				9A446BF91BE249AF00057E98 /* Sources */,
+				9A446BFA1BE249AF00057E98 /* Frameworks */,
+				9A446BFB1BE249AF00057E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A446BFF1BE249AF00057E98 /* PBXTargetDependency */,
+			);
+			name = FileSharingThroughWifiTests;
+			productName = FileSharingThroughWifiTests;
+			productReference = 9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A446C071BE249AF00057E98 /* FileSharingThroughWifiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiUITests" */;
+			buildPhases = (
+				9A446C041BE249AF00057E98 /* Sources */,
+				9A446C051BE249AF00057E98 /* Frameworks */,
+				9A446C061BE249AF00057E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A446C0A1BE249AF00057E98 /* PBXTargetDependency */,
+			);
+			name = FileSharingThroughWifiUITests;
+			productName = FileSharingThroughWifiUITests;
+			productReference = 9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A446BD91BE249AE00057E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wflogin;
+				TargetAttributes = {
+					9A446BE01BE249AE00057E98 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9A446BFC1BE249AF00057E98 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9A446BE01BE249AE00057E98;
+					};
+					9A446C071BE249AF00057E98 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9A446BE01BE249AE00057E98;
+					};
+				};
+			};
+			buildConfigurationList = 9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "FileSharingThroughWifi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A446BD81BE249AE00057E98;
+			productRefGroup = 9A446BE21BE249AE00057E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */,
+				9A446BFC1BE249AF00057E98 /* FileSharingThroughWifiTests */,
+				9A446C071BE249AF00057E98 /* FileSharingThroughWifiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A446BDF1BE249AE00057E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A446BF71BE249AE00057E98 /* LaunchScreen.storyboard in Resources */,
+				9A446BF41BE249AE00057E98 /* Assets.xcassets in Resources */,
+				9A446BEF1BE249AE00057E98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446BFB1BE249AF00057E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446C061BE249AF00057E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A446BDD1BE249AE00057E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A446BEC1BE249AE00057E98 /* ViewController.m in Sources */,
+				9A446BE91BE249AE00057E98 /* AppDelegate.m in Sources */,
+				9A446BE61BE249AE00057E98 /* main.m in Sources */,
+				9A446BF21BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446BF91BE249AF00057E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A446C021BE249AF00057E98 /* FileSharingThroughWifiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A446C041BE249AF00057E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A446C0D1BE249AF00057E98 /* FileSharingThroughWifiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A446BFF1BE249AF00057E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */;
+			targetProxy = 9A446BFE1BE249AF00057E98 /* PBXContainerItemProxy */;
+		};
+		9A446C0A1BE249AF00057E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */;
+			targetProxy = 9A446C091BE249AF00057E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A446BED1BE249AE00057E98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A446BEE1BE249AE00057E98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A446BF51BE249AE00057E98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A446BF61BE249AE00057E98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A446C0F1BE249AF00057E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A446C101BE249AF00057E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A446C121BE249AF00057E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileSharingThroughWifi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A446C131BE249AF00057E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileSharingThroughWifi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A446C151BE249AF00057E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FileSharingThroughWifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileSharingThroughWifi.app/FileSharingThroughWifi";
+			};
+			name = Debug;
+		};
+		9A446C161BE249AF00057E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FileSharingThroughWifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileSharingThroughWifi.app/FileSharingThroughWifi";
+			};
+			name = Release;
+		};
+		9A446C181BE249AF00057E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FileSharingThroughWifiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FileSharingThroughWifi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A446C191BE249AF00057E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FileSharingThroughWifiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FileSharingThroughWifi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "FileSharingThroughWifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A446C0F1BE249AF00057E98 /* Debug */,
+				9A446C101BE249AF00057E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A446C121BE249AF00057E98 /* Debug */,
+				9A446C131BE249AF00057E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A446C151BE249AF00057E98 /* Debug */,
+				9A446C161BE249AF00057E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A446C181BE249AF00057E98 /* Debug */,
+				9A446C191BE249AF00057E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A446BF01BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A446BF11BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodel */,
+			);
+			currentVersion = 9A446BF11BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodel */;
+			path = FileSharingThroughWifi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A446BD91BE249AE00057E98 /* Project object */;
+}
