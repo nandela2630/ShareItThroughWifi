@@ -5,7 +5,7 @@ Follow Steps:
 
 1.First Run the code in Two Devices
 
-2. Make Sure Both Devices are connected to Wifi
+2.Make Sure Both Devices are connected to Wifi
 
 3.then Click Connect Button
 
