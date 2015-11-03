@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A446BE01BE249AE00057E98"
-               BuildableName = "FileSharingThroughWifi.app"
-               BlueprintName = "FileSharingThroughWifi"
-               ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+               BuildableName = "ShareItThroughWifi.app"
+               BlueprintName = "ShareItThroughWifi"
+               ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A446BFC1BE249AF00057E98"
-               BuildableName = "FileSharingThroughWifiTests.xctest"
-               BlueprintName = "FileSharingThroughWifiTests"
-               ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+               BuildableName = "ShareItThroughWifi.xctest"
+               BlueprintName = "ShareItThroughWifiTests"
+               ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9A446C071BE249AF00057E98"
-               BuildableName = "FileSharingThroughWifiUITests.xctest"
-               BlueprintName = "FileSharingThroughWifiUITests"
-               ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+               BuildableName = "ShareItThroughWifi.xctest"
+               BlueprintName = "ShareItThroughWifiUITests"
+               ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A446BE01BE249AE00057E98"
-            BuildableName = "FileSharingThroughWifi.app"
-            BlueprintName = "FileSharingThroughWifi"
-            ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+            BuildableName = "ShareItThroughWifi.app"
+            BlueprintName = "ShareItThroughWifi"
+            ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A446BE01BE249AE00057E98"
-            BuildableName = "FileSharingThroughWifi.app"
-            BlueprintName = "FileSharingThroughWifi"
-            ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+            BuildableName = "ShareItThroughWifi.app"
+            BlueprintName = "ShareItThroughWifi"
+            ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9A446BE01BE249AE00057E98"
-            BuildableName = "FileSharingThroughWifi.app"
-            BlueprintName = "FileSharingThroughWifi"
-            ReferencedContainer = "container:FileSharingThroughWifi.xcodeproj">
+            BuildableName = "ShareItThroughWifi.app"
+            BlueprintName = "ShareItThroughWifi"
+            ReferencedContainer = "container:ShareItThroughWifi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

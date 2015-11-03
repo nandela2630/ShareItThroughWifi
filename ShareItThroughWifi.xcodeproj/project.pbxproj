@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3AF3C71BE8DB450046FE2A /* zbar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AF3C61BE8DB450046FE2A /* zbar.txt */; };
+		9A3AF3CA1BE8DC500046FE2A /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AF3C91BE8DC500046FE2A /* InstructionsViewController.m */; };
+		9A3AF3CC1BE8E6C00046FE2A /* Instructions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AF3CB1BE8E6BE0046FE2A /* Instructions.xib */; };
 		9A446BE61BE249AE00057E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BE51BE249AE00057E98 /* main.m */; };
 		9A446BE91BE249AE00057E98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BE81BE249AE00057E98 /* AppDelegate.m */; };
 		9A446BEC1BE249AE00057E98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446BEB1BE249AE00057E98 /* ViewController.m */; };
@@ -16,6 +19,13 @@
 		9A446BF71BE249AE00057E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A446BF51BE249AE00057E98 /* LaunchScreen.storyboard */; };
 		9A446C021BE249AF00057E98 /* FileSharingThroughWifiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */; };
 		9A446C0D1BE249AF00057E98 /* FileSharingThroughWifiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */; };
+		9A446C1B1BE249CD00057E98 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A446C1A1BE249CD00057E98 /* MultipeerConnectivity.framework */; };
+		9A446C1D1BE250B600057E98 /* Clay car update 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9A446C1C1BE250B600057E98 /* Clay car update 2.mp4 */; };
+		9A4806911BE77D0400E22AEE /* GlobalStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4806901BE77D0400E22AEE /* GlobalStrings.m */; };
+		9A4806941BE78B4B00E22AEE /* samplebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4806921BE78B4B00E22AEE /* samplebutton.png */; };
+		9A4806951BE78B4B00E22AEE /* samplebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4806931BE78B4B00E22AEE /* samplebutton@2x.png */; };
+		9A69292F1BE33B7200BBDBA1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A69292E1BE33B7200BBDBA1 /* MobileCoreServices.framework */; };
+		9AA2A13C1BE8949D00F712A2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA2A13B1BE8949D00F712A2 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileSharingThroughWifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3AF3C61BE8DB450046FE2A /* zbar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zbar.txt; sourceTree = "<group>"; };
+		9A3AF3C81BE8DC500046FE2A /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		9A3AF3C91BE8DC500046FE2A /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		9A3AF3CB1BE8E6BE0046FE2A /* Instructions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Instructions.xib; sourceTree = "<group>"; };
+		9A446BE11BE249AE00057E98 /* ShareItThroughWifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareItThroughWifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A446BE51BE249AE00057E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A446BE71BE249AE00057E98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A446BE81BE249AE00057E98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +61,20 @@
 		9A446BF31BE249AE00057E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A446BF61BE249AE00057E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A446BF81BE249AE00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSharingThroughWifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A446BFD1BE249AF00057E98 /* ShareItThroughWifi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareItThroughWifi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharingThroughWifiTests.m; sourceTree = "<group>"; };
 		9A446C031BE249AF00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSharingThroughWifiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A446C081BE249AF00057E98 /* ShareItThroughWifi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareItThroughWifi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSharingThroughWifiUITests.m; sourceTree = "<group>"; };
 		9A446C0E1BE249AF00057E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A446C1A1BE249CD00057E98 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		9A446C1C1BE250B600057E98 /* Clay car update 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Clay car update 2.mp4"; sourceTree = "<group>"; };
+		9A48068F1BE77D0400E22AEE /* GlobalStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalStrings.h; sourceTree = "<group>"; };
+		9A4806901BE77D0400E22AEE /* GlobalStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalStrings.m; sourceTree = "<group>"; };
+		9A4806921BE78B4B00E22AEE /* samplebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samplebutton.png; sourceTree = "<group>"; };
+		9A4806931BE78B4B00E22AEE /* samplebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samplebutton@2x.png"; sourceTree = "<group>"; };
+		9A69292E1BE33B7200BBDBA1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9AA2A13B1BE8949D00F712A2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA2A13C1BE8949D00F712A2 /* AssetsLibrary.framework in Frameworks */,
+				9A69292F1BE33B7200BBDBA1 /* MobileCoreServices.framework in Frameworks */,
+				9A446C1B1BE249CD00057E98 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +108,9 @@
 		9A446BD81BE249AE00057E98 = {
 			isa = PBXGroup;
 			children = (
-				9A446BE31BE249AE00057E98 /* FileSharingThroughWifi */,
-				9A446C001BE249AF00057E98 /* FileSharingThroughWifiTests */,
-				9A446C0B1BE249AF00057E98 /* FileSharingThroughWifiUITests */,
+				9A446BE31BE249AE00057E98 /* ShareItThroughWifi */,
+				9A446C001BE249AF00057E98 /* ShareItThroughWifiTests */,
+				9A446C0B1BE249AF00057E98 /* ShareItThroughWifiUITests */,
 				9A446BE21BE249AE00057E98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +118,14 @@
 		9A446BE21BE249AE00057E98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */,
-				9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */,
-				9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */,
+				9A446BE11BE249AE00057E98 /* ShareItThroughWifi.app */,
+				9A446BFD1BE249AF00057E98 /* ShareItThroughWifi.xctest */,
+				9A446C081BE249AF00057E98 /* ShareItThroughWifi.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A446BE31BE249AE00057E98 /* FileSharingThroughWifi */ = {
+		9A446BE31BE249AE00057E98 /* ShareItThroughWifi */ = {
 			isa = PBXGroup;
 			children = (
 				9A446BE71BE249AE00057E98 /* AppDelegate.h */,
@@ -112,8 +137,11 @@
 				9A446BF51BE249AE00057E98 /* LaunchScreen.storyboard */,
 				9A446BF81BE249AE00057E98 /* Info.plist */,
 				9A446BF01BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld */,
+				9A446C3F1BE2515500057E98 /* Resources */,
+				9A446C3E1BE2512700057E98 /* Frameworks */,
 				9A446BE41BE249AE00057E98 /* Supporting Files */,
 			);
+			name = ShareItThroughWifi;
 			path = FileSharingThroughWifi;
 			sourceTree = "<group>";
 		};
@@ -125,30 +153,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A446C001BE249AF00057E98 /* FileSharingThroughWifiTests */ = {
+		9A446C001BE249AF00057E98 /* ShareItThroughWifiTests */ = {
 			isa = PBXGroup;
 			children = (
 				9A446C011BE249AF00057E98 /* FileSharingThroughWifiTests.m */,
 				9A446C031BE249AF00057E98 /* Info.plist */,
 			);
+			name = ShareItThroughWifiTests;
 			path = FileSharingThroughWifiTests;
 			sourceTree = "<group>";
 		};
-		9A446C0B1BE249AF00057E98 /* FileSharingThroughWifiUITests */ = {
+		9A446C0B1BE249AF00057E98 /* ShareItThroughWifiUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9A446C0C1BE249AF00057E98 /* FileSharingThroughWifiUITests.m */,
 				9A446C0E1BE249AF00057E98 /* Info.plist */,
 			);
+			name = ShareItThroughWifiUITests;
 			path = FileSharingThroughWifiUITests;
+			sourceTree = "<group>";
+		};
+		9A446C3E1BE2512700057E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2A13B1BE8949D00F712A2 /* AssetsLibrary.framework */,
+				9A69292E1BE33B7200BBDBA1 /* MobileCoreServices.framework */,
+				9A446C1A1BE249CD00057E98 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A446C3F1BE2515500057E98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A48068F1BE77D0400E22AEE /* GlobalStrings.h */,
+				9A4806901BE77D0400E22AEE /* GlobalStrings.m */,
+				9A3AF3C81BE8DC500046FE2A /* InstructionsViewController.h */,
+				9A3AF3C91BE8DC500046FE2A /* InstructionsViewController.m */,
+				9A3AF3CB1BE8E6BE0046FE2A /* Instructions.xib */,
+				9A3AF3C61BE8DB450046FE2A /* zbar.txt */,
+				9A4806931BE78B4B00E22AEE /* samplebutton@2x.png */,
+				9A4806921BE78B4B00E22AEE /* samplebutton.png */,
+				9A446C1C1BE250B600057E98 /* Clay car update 2.mp4 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */ = {
+		9A446BE01BE249AE00057E98 /* ShareItThroughWifi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifi" */;
+			buildConfigurationList = 9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifi" */;
 			buildPhases = (
 				9A446BDD1BE249AE00057E98 /* Sources */,
 				9A446BDE1BE249AE00057E98 /* Frameworks */,
@@ -158,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = FileSharingThroughWifi;
+			name = ShareItThroughWifi;
 			productName = FileSharingThroughWifi;
-			productReference = 9A446BE11BE249AE00057E98 /* FileSharingThroughWifi.app */;
+			productReference = 9A446BE11BE249AE00057E98 /* ShareItThroughWifi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A446BFC1BE249AF00057E98 /* FileSharingThroughWifiTests */ = {
+		9A446BFC1BE249AF00057E98 /* ShareItThroughWifiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiTests" */;
+			buildConfigurationList = 9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifiTests" */;
 			buildPhases = (
 				9A446BF91BE249AF00057E98 /* Sources */,
 				9A446BFA1BE249AF00057E98 /* Frameworks */,
@@ -176,14 +232,14 @@
 			dependencies = (
 				9A446BFF1BE249AF00057E98 /* PBXTargetDependency */,
 			);
-			name = FileSharingThroughWifiTests;
+			name = ShareItThroughWifiTests;
 			productName = FileSharingThroughWifiTests;
-			productReference = 9A446BFD1BE249AF00057E98 /* FileSharingThroughWifiTests.xctest */;
+			productReference = 9A446BFD1BE249AF00057E98 /* ShareItThroughWifi.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A446C071BE249AF00057E98 /* FileSharingThroughWifiUITests */ = {
+		9A446C071BE249AF00057E98 /* ShareItThroughWifiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiUITests" */;
+			buildConfigurationList = 9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifiUITests" */;
 			buildPhases = (
 				9A446C041BE249AF00057E98 /* Sources */,
 				9A446C051BE249AF00057E98 /* Frameworks */,
@@ -194,9 +250,9 @@
 			dependencies = (
 				9A446C0A1BE249AF00057E98 /* PBXTargetDependency */,
 			);
-			name = FileSharingThroughWifiUITests;
+			name = ShareItThroughWifiUITests;
 			productName = FileSharingThroughWifiUITests;
-			productReference = 9A446C081BE249AF00057E98 /* FileSharingThroughWifiUITests.xctest */;
+			productReference = 9A446C081BE249AF00057E98 /* ShareItThroughWifi.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "FileSharingThroughWifi" */;
+			buildConfigurationList = 9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "ShareItThroughWifi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +290,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */,
-				9A446BFC1BE249AF00057E98 /* FileSharingThroughWifiTests */,
-				9A446C071BE249AF00057E98 /* FileSharingThroughWifiUITests */,
+				9A446BE01BE249AE00057E98 /* ShareItThroughWifi */,
+				9A446BFC1BE249AF00057E98 /* ShareItThroughWifiTests */,
+				9A446C071BE249AF00057E98 /* ShareItThroughWifiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,9 +302,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4806951BE78B4B00E22AEE /* samplebutton@2x.png in Resources */,
+				9A446C1D1BE250B600057E98 /* Clay car update 2.mp4 in Resources */,
+				9A4806941BE78B4B00E22AEE /* samplebutton.png in Resources */,
 				9A446BF71BE249AE00057E98 /* LaunchScreen.storyboard in Resources */,
 				9A446BF41BE249AE00057E98 /* Assets.xcassets in Resources */,
 				9A446BEF1BE249AE00057E98 /* Main.storyboard in Resources */,
+				9A3AF3CC1BE8E6C00046FE2A /* Instructions.xib in Resources */,
+				9A3AF3C71BE8DB450046FE2A /* zbar.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +336,10 @@
 			files = (
 				9A446BEC1BE249AE00057E98 /* ViewController.m in Sources */,
 				9A446BE91BE249AE00057E98 /* AppDelegate.m in Sources */,
+				9A4806911BE77D0400E22AEE /* GlobalStrings.m in Sources */,
 				9A446BE61BE249AE00057E98 /* main.m in Sources */,
 				9A446BF21BE249AE00057E98 /* FileSharingThroughWifi.xcdatamodeld in Sources */,
+				9A3AF3CA1BE8DC500046FE2A /* InstructionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +364,12 @@
 /* Begin PBXTargetDependency section */
 		9A446BFF1BE249AF00057E98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */;
+			target = 9A446BE01BE249AE00057E98 /* ShareItThroughWifi */;
 			targetProxy = 9A446BFE1BE249AF00057E98 /* PBXContainerItemProxy */;
 		};
 		9A446C0A1BE249AF00057E98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A446BE01BE249AE00057E98 /* FileSharingThroughWifi */;
+			target = 9A446BE01BE249AE00057E98 /* ShareItThroughWifi */;
 			targetProxy = 9A446C091BE249AF00057E98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,10 +480,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Chong (HDB2BE2J8J)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FileSharingThroughWifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.ShareItThroughWifi;
+				PRODUCT_NAME = ShareItThroughWifi;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,10 +495,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Chong (HDB2BE2J8J)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FileSharingThroughWifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.ShareItThroughWifi;
+				PRODUCT_NAME = ShareItThroughWifi;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -442,8 +513,8 @@
 				INFOPLIST_FILE = FileSharingThroughWifiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileSharingThroughWifi.app/FileSharingThroughWifi";
+				PRODUCT_NAME = ShareItThroughWifi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareItThroughWifi.app/ShareItThroughWifi";
 			};
 			name = Debug;
 		};
@@ -454,8 +525,8 @@
 				INFOPLIST_FILE = FileSharingThroughWifiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileSharingThroughWifi.app/FileSharingThroughWifi";
+				PRODUCT_NAME = ShareItThroughWifi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareItThroughWifi.app/ShareItThroughWifi";
 			};
 			name = Release;
 		};
@@ -465,7 +536,7 @@
 				INFOPLIST_FILE = FileSharingThroughWifiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ShareItThroughWifi;
 				TEST_TARGET_NAME = FileSharingThroughWifi;
 				USES_XCTRUNNER = YES;
 			};
@@ -477,7 +548,7 @@
 				INFOPLIST_FILE = FileSharingThroughWifiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winfashion.FileSharingThroughWifiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ShareItThroughWifi;
 				TEST_TARGET_NAME = FileSharingThroughWifi;
 				USES_XCTRUNNER = YES;
 			};
@@ -486,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "FileSharingThroughWifi" */ = {
+		9A446BDC1BE249AE00057E98 /* Build configuration list for PBXProject "ShareItThroughWifi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A446C0F1BE249AF00057E98 /* Debug */,
@@ -495,29 +566,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifi" */ = {
+		9A446C111BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A446C121BE249AF00057E98 /* Debug */,
 				9A446C131BE249AF00057E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiTests" */ = {
+		9A446C141BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A446C151BE249AF00057E98 /* Debug */,
 				9A446C161BE249AF00057E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "FileSharingThroughWifiUITests" */ = {
+		9A446C171BE249AF00057E98 /* Build configuration list for PBXNativeTarget "ShareItThroughWifiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A446C181BE249AF00057E98 /* Debug */,
 				9A446C191BE249AF00057E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

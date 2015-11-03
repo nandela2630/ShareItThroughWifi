@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController imagePickerController:didFinishPickingMediaWithInfo:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController appendFileData]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "global.videoPathString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
